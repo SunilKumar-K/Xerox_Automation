@@ -2,7 +2,7 @@ package com.xerox_app.application.model;
 
 import java.util.UUID;
 
-public class shop {
+public class Shop {
     private String shopId;
     private String name;
     private String location;
@@ -11,7 +11,7 @@ public class shop {
 
     // Constructor
 
-    public shop(String name,String location,String contactInfo)
+    public Shop(String name, String location, String contactInfo)
     {
         this.shopId = UUID.randomUUID().toString();
         this.name = name;

@@ -3,14 +3,14 @@ package com.xerox_app.application.model;
 
 import java.util.UUID;
 
-public class user {
+public class User {
     private String id;
     private String name;
     private String email;
     private String phoneNumber;
 
     // Constructor
-    public user(String name, String email, String phoneNumber) {
+    public User(String name, String email, String phoneNumber) {
         this.id = UUID.randomUUID().toString();
         this.name = name;
         this.email = email;
